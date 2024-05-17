@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+#logging on to my web server
+
+eval $("lekan_server")
+
+ssh-add ~/.ssh/id_rsa
+
+ssh ubuntu@54.237.38.206
