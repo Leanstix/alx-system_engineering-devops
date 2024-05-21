@@ -12,7 +12,7 @@ frontend http-in
 # Backend configuration
 backend servers
     balance roundrobin
-    server 221107-web-01 100.26.235.216
-    server 221107-web-02 54.209.120.42
+    server 218832-web-01 100.26.235.216
+    server 218832-web-02 54.209.120.42
 " >> /etc/haproxy/haproxy.cfg
 sudo service haproxy restart
