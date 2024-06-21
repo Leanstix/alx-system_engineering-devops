@@ -14,7 +14,6 @@ def recurse(subreddit, hot_list=[], after="", count=0):
     headers = {
         'User-Agent': 'api_advanced-project'
     }
-
     params = {
         "after": after,
         "count": count,
